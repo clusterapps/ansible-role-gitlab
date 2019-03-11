@@ -17,6 +17,7 @@ gitlab_create_self_signed_cert: "true"
 gitlab_self_signed_cert_subj: "/C=US/ST=Missouri/L=Saint Louis/O=IT/CN=gitlab"
 
 # LDAP Configuration.
+gitlab_freeipa_enabled: "false"
 gitlab_ldap_enabled: "false"
 gitlab_ldap_host: "example.com"
 gitlab_ldap_port: "389"
