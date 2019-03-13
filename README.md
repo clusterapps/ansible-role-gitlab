@@ -1,13 +1,9 @@
 # Ansible Role: GitLab
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-gitlab.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-gitlab)
+Installs GitLab on any RedHat/CentOS. Debian/Ubuntu may also work.
 
-Installs GitLab, a Ruby-based front-end to Git, on any RedHat/CentOS or Debian/Ubuntu linux system.
+Fork from geerlingguy/ansible-role-gitlab to add more features and configs to inital install like FreeIPA authentication and SendGrid configuration.
 
-GitLab's default administrator account details are below; be sure to login immediately after installation and change these credentials!
-
-    root
-    5iveL!fe
 
 ## Requirements
 
@@ -133,7 +129,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - { role: geerlingguy.gitlab }
+        - { role: clusterapps.gitlab }
 
 *Inside `vars/main.yml`*:
 
@@ -144,5 +140,6 @@ None.
 MIT / BSD
 
 ## Author Information
+This role was forked in 2019 by [Michael Cleary](https://clusterapps.com)
 
 This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
