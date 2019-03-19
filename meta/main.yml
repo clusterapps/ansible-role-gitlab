@@ -6,7 +6,6 @@ galaxy_info:
   author: Michael Cleary
   company: ClusterApps
   description: GitLab 
-  company: "ClusterApps"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.0
   platforms:
