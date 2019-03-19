@@ -2,7 +2,9 @@
 dependencies: []
 
 galaxy_info:
-  author: clusterapps
+  role_name: gitlab
+  author: Michael Cleary
+  company: ClusterApps
   description: GitLab 
   company: "ClusterApps"
   license: "license (BSD, MIT)"
